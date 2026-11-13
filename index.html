@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>—͞Ꮪ𝐡𝐚ɴᴅɪᴛʜ 𝐀ʟʟ𝐬ᴀʙɪʙ࿐ | Personal Identity & Portfolio</title>
+    <!-- Google Fonts: Syne & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Animated Cursor (Desktop) -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Ambient Neon Live Glow Background -->
+    <div class="neon-ambient-bg">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="ns-logo interactive" aria-label="NS Signature Logo">
+            <svg viewBox="0 0 120 50" class="ns-svg">
+                <path d="M15 40 L15 10 L42 40 L42 10" fill="none" stroke="url(#bloodGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M85 14 C70 8, 55 15, 68 25 C82 35, 65 44, 52 38" fill="none" stroke="url(#bloodGrad)" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="96" cy="38" r="3" fill="#ff1e38"/>
+                <defs>
+                    <linearGradient id="bloodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ff1e38"/>
+                        <stop offset="50%" stop-color="#9e0b1c"/>
+                        <stop offset="100%" stop-color="#ff4d61"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <span class="logo-sub">IDENTITY</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="nav-item interactive">Dashboard</a>
+            <a href="#about" class="nav-item interactive">About & Stats</a>
+            <a href="#skills" class="nav-item interactive">Skills</a>
+            <a href="#projects" class="nav-item interactive">Projects</a>
+            <a href="#team" class="nav-item interactive">My Team</a>
+            <a href="#contact" class="nav-item interactive">Contact</a>
+        </nav>
+
+        <button id="sound-toggle" class="sound-btn interactive" title="Toggle UI Sound">
+            <i class="fa-solid fa-volume-high"></i> <span>SFX ON</span>
+        </button>
+    </header>
+
+    <!-- Main One-Page Smooth Container -->
+    <main>
+        <!-- 1. HERO / DIRECT DASHBOARD -->
+        <section id="home" class="section hero-section">
+            <div class="hero-grid">
+                <!-- Left Identity Card -->
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span> SYSTEM ONLINE • VERIFIED IDENTITY
+                    </div>
+                    <p class="intro-label">HI, I'M</p>
+                    <h1 class="glitch-name">—͞Ꮪ𝐡𝐚ɴᴅɪᴛʜ 𝐀ʟʟ𝐬ᴀʙɪʙ࿐</h1>
+                    <p class="tagline">Creative Mind • Digital Enthusiast • Project Builder</p>
+                    
+                    <p class="hero-bio">
+                        Full-Stack Developer, Python Automation Architect & Freelance Specialist with <strong>200+ Fiverr orders completed</strong>. I engineer high-impact digital identities, custom web architectures, and intelligent automation tools.
+                    </p>
+
+                    <!-- Social Media Maroon Glow Icons -->
+                    <div class="social-bar">
+                        <a href="https://www.facebook.com/Md.allsabib" target="_blank" rel="noopener" class="social-icon interactive" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/spider_2p23/" target="_blank" rel="noopener" class="social-icon interactive" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Toxic-Shandith" target="_blank" rel="noopener" class="social-icon interactive" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/md-shandith-allsabib/" target="_blank" rel="noopener" class="social-icon interactive" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/xabier__s2s" target="_blank" rel="noopener" class="social-icon interactive" title="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://wa.me/8801913229630" target="_blank" rel="noopener" class="social-icon interactive" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary interactive">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn-outline interactive">Direct Email</a>
+                    </div>
+                </div>
+
+                <!-- Right Black & White Portrait with Live Neon Frame -->
+                <div class="hero-visual">
+                    <div class="portrait-frame tilt-card interactive" data-modal="identity-modal">
+                        <img src="assets/profile.jpg" alt="Shandith Allsabib B&W Portrait" class="bw-portrait">
+                        <div class="portrait-overlay">
+                            <div class="portrait-tag">
+                                <span>NS // CORE</span>
+                                <small>Click to inspect ID</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive 3D Floating Dashboard Bento Cards -->
+            <div class="dashboard-bento">
+                <div class="dash-card tilt-card interactive" data-modal="modal-fiverr">
+                    <div class="dash-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="dash-info">
+                        <h3>200+ Fiverr Projects</h3>
+                        <p>5-Star Global Client Delivery & Automation</p>
+                    </div>
+                    <span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </div>
+
+                <div class="dash-card tilt-card interactive" data-modal="modal-python">
+                    <div class="dash-icon"><i class="fa-brands fa-python"></i></div>
+                    <div class="dash-info">
+                        <h3>Python & Core Dev</h3>
+                        <p>Bots, Scrapers, APIs & Backend Systems</p>
+                    </div>
+                    <span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </div>
+
+                <div class="dash-card tilt-card interactive" data-modal="modal-team">
+                    <div class="dash-icon"><i class="fa-solid fa-users-gear"></i></div>
+                    <div class="dash-info">
+                        <h3>Elite Squad (5 Members)</h3>
+                        <p>Symon, Ryuz, Xannat, Aevon & Anan</p>
+                    </div>
+                    <span class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </div>
+
+                <div class="dash-card tilt-card interactive" id="open-nusairah-card">
+                    <div class="dash-icon"><i class="fa-solid fa-robot"></i></div>
+                    <div class="dash-info">
+                        <h3>Nusairah AI</h3>
+                        <p>Personal Smart Assistant Online</p>
+                    </div>
+                    <span class="card-arrow"><i class="fa-solid fa-comment-dots"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT & PERFORMANCE DESCRIPTION (Compact Full Tab) -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <span class="sec-tag">01 // PERFORMANCE & IDENTITY</span>
+                <h2>Who Am I & Track Record</h2>
+            </div>
+
+            <div class="about-compact-tab tilt-card interactive" data-modal="identity-modal">
+                <div class="about-text">
+                    <h3>Precision Engineering Meets Dark Aesthetic</h3>
+                    <p>
+                        I am <strong>—͞Ꮪ𝐡𝐚ɴᴅɪᴛʜ 𝐀ʟʟ𝐬ᴀʙɪʙ࿐</strong>, a results-driven developer and digital creator specializing in Python automation, Java applications, and bespoke web interfaces. Having successfully delivered <strong>200+ projects on Fiverr</strong>, I combine speed, clean code, and reliable client communication to turn raw ideas into production-ready systems.
+                    </p>
+                    <p>
+                        Whether building custom scrapers, interactive web dashboards, or leading my specialized five-member execution squad, every deliverable is engineered for maximum performance and visual impact.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-num">200+</span>
+                        <span class="stat-label">Fiverr Orders</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">99.4%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">3+ Yrs</span>
+                        <span class="stat-label">Coding Experience</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">24/7</span>
+                        <span class="stat-label">Nusairah AI Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EXPERIENCE & TECH STACK (Maroon Custom Icons) -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <span class="sec-tag">02 // TECHNICAL ARSENAL</span>
+                <h2>Programming & Core Experience</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card tilt-card interactive">
+                    <div class="skill-icon-maroon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python</h3>
+                    <p>Automation scripts, Selenium/Playwright bots, data scraping, FastAPI & AI integrations.</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 96%;"></div></div>
+                </div>
+
+                <div class="skill-card tilt-card interactive">
+                    <div class="skill-icon-maroon"><i class="fa-brands fa-java"></i></div>
+                    <h3>Java</h3>
+                    <p>Object-oriented backend systems, desktop utilities, and algorithmic problem solving.</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 88%;"></div></div>
+                </div>
+
+                <div class="skill-card tilt-card interactive">
+                    <div class="skill-icon-maroon"><i class="fa-brands fa-js"></i></div>
+                    <h3>JavaScript & Web</h3>
+                    <p>Interactive UI/UX, 3D animations, modern responsive web apps & REST APIs.</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 92%;"></div></div>
+                </div>
+
+                <div class="skill-card tilt-card interactive">
+                    <div class="skill-icon-maroon"><i class="fa-solid fa-terminal"></i></div>
+                    <h3>C / C++ & Scripting</h3>
+                    <p>High-performance logic, CLI tools, system workflows & rapid prototyping.</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROJECTS & CREATIVE POSTERS (Part-by-Part Showcase) -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <span class="sec-tag">03 // PORTFOLIO & CREATIVE POSTERS</span>
+                <h2>Featured Work & Visual Posters</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-poster tilt-card interactive" data-modal="proj-1">
+                    <div class="poster-banner poster-red-1">
+                        <span class="poster-badge">PYTHON AUTOMATION</span>
+                        <i class="fa-solid fa-robot poster-bg-icon"></i>
+                        <h4>Fiverr Auto-Workflow Engine</h4>
+                    </div>
+                    <div class="poster-body">
+                        <p>Multi-threaded Python automation suite built for 80+ e-commerce clients to extract, clean, and sync live inventory data.</p>
+                        <div class="poster-tags">
+                            <span>Python</span><span>Selenium</span><span>Pandas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-poster tilt-card interactive" data-modal="proj-2">
+                    <div class="poster-banner poster-red-2">
+                        <span class="poster-badge">JAVA ARCHITECTURE</span>
+                        <i class="fa-brands fa-java poster-bg-icon"></i>
+                        <h4>Enterprise Task & POS Core</h4>
+                    </div>
+                    <div class="poster-body">
+                        <p>High-speed Java desktop & database management engine with encrypted user roles and instant invoice generation.</p>
+                        <div class="poster-tags">
+                            <span>Java</span><span>SQL</span><span>Security</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-poster tilt-card interactive" data-modal="proj-3">
+                    <div class="poster-banner poster-red-3">
+                        <span class="poster-badge">CREATIVE POSTER // UI</span>
+                        <i class="fa-solid fa-wand-magic-sparkles poster-bg-icon"></i>
+                        <h4>Crimson Neon Brand Identity</h4>
+                    </div>
+                    <div class="poster-body">
+                        <p>Bespoke dark-red interactive web experience featuring custom Web Audio synthesis, 3D tilt cards, and live neon shaders.</p>
+                        <div class="poster-tags">
+                            <span>HTML5</span><span>CSS3</span><span>WebAudio</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 5. MY SQUAD / TEAM -->
+        <section id="team" class="section">
+            <div class="section-header">
+                <span class="sec-tag">04 // DEDICATED EXECUTION SQUAD</span>
+                <h2>Meet My Core Team</h2>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card tilt-card interactive" data-modal="team-symon">
+                    <div class="member-avatar">SY</div>
+                    <h3>Symon</h3>
+                    <span class="member-role">Web Developer</span>
+                    <p>Full-stack architecture, responsive frontend builds, and high-speed backend deployment.</p>
+                </div>
+
+                <div class="team-card tilt-card interactive" data-modal="team-ryuz">
+                    <div class="member-avatar">RY</div>
+                    <h3>Ryuz</h3>
+                    <span class="member-role">Web Designer</span>
+                    <p>Dark-mode aesthetics, creative posters, UI/UX wireframes, and visual brand systems.</p>
+                </div>
+
+                <div class="team-card tilt-card interactive" data-modal="team-xannat">
+                    <div class="member-avatar">XA</div>
+                    <h3>Xannat</h3>
+                    <span class="member-role">Client Communicator</span>
+                    <p>Direct buyer communication, requirement analysis, and seamless client onboarding.</p>
+                </div>
+
+                <div class="team-card tilt-card interactive" data-modal="team-aevon">
+                    <div class="member-avatar">AE</div>
+                    <h3>Aevon</h3>
+                    <span class="member-role">Core Coder</span>
+                    <p>Complex algorithms, Python/Java scripting, debugging, and custom logic implementation.</p>
+                </div>
+
+                <div class="team-card tilt-card interactive" data-modal="team-anan">
+                    <div class="member-avatar">AN</div>
+                    <h3>Anan</h3>
+                    <span class="member-role">Application Specialist</span>
+                    <p>Cross-platform app integration, testing, deployment, and workflow execution.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. DIRECT EMAIL & COMMUNICATION -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <span class="sec-tag">05 // DIRECT TRANSMISSION</span>
+                <h2>Connect With Me</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info tilt-card">
+                    <h3>Start a Project or Say Hello</h3>
+                    <p>Need a Python automation script, a custom web identity, or full-team execution? Send an instant message straight to my inbox.</p>
+                    <div class="contact-details">
+                        <div class="c-item"><i class="fa-solid fa-envelope"></i> <span>dewanshandith@gmail.com</span></div>
+                        <div class="c-item"><i class="fa-brands fa-whatsapp"></i> <span>+880 19132 29630</span></div>
+                        <div class="c-item"><i class="fa-solid fa-briefcase"></i> <span>Fiverr Level Seller • 200+ Completed</span></div>
+                        <div class="c-item"><i class="fa-solid fa-location-dot"></i> <span>Available Worldwide (Remote)</span></div>
+                    </div>
+                </div>
+
+                <form id="direct-email-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="sender-name">Your Name</label>
+                        <input type="text" id="sender-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sender-email">Your Email</label>
+                        <input type="email" id="sender-email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sender-subject">Project / Subject</label>
+                        <input type="text" id="sender-subject" placeholder="Python Bot / Web Design / Inquiry" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sender-message">Message</label>
+                        <textarea id="sender-message" rows="4" placeholder="Describe your requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary interactive full-width">
+                        <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 —͞Ꮪ𝐡𝐚ɴᴅɪᴛʜ 𝐀ʟʟ𝐬ᴀʙɪʙ࿐ (NS Identity). Engineered with Blood Red Neon Precision.</p>
+    </footer>
+
+    <!-- POPUP MODAL FOR DASHBOARD CARDS & PROJECTS -->
+    <div id="info-modal" class="modal-backdrop hidden">
+        <div class="modal-box">
+            <button id="close-modal" class="modal-close interactive"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- NUSAIRAH AI FLOATING WIDGET -->
+    <div class="nusairah-widget">
+        <button id="nusairah-toggle" class="nusairah-fab interactive" title="Ask Nusairah AI">
+            <i class="fa-solid fa-robot"></i>
+            <span>Nusairah AI</span>
+        </button>
+
+        <div id="nusairah-chat" class="nusairah-window hidden">
+            <div class="chat-header">
+                <div>
+                    <strong>Nusairah AI</strong>
+                    <small>● Shandith's Personal Assistant</small>
+                </div>
+                <button id="nusairah-close" class="interactive"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="msg bot">
+                    Hello! I am <strong>Nusairah</strong>, Shandith's AI assistant. Ask me about his 200+ Fiverr projects, Python/Java skills, his team (Symon, Ryuz, Xannat, Aevon, Anan), or how to contact him!
+                </div>
+            </div>
+            <form id="chat-form" class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Ask Nusairah anything..." autocomplete="off" required>
+                <button type="submit" class="interactive"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
